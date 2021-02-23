@@ -9,5 +9,8 @@ try {
 }
 
 function toHackername(name) {
-    return name.replace('o', '0').replace('a', '4').replace('i', '1').replace('e', '3');
+    return name.replace(/o|O/g, '0')
+        .replace(/a|A/g, '4')
+        .replace(/i|I|l/g, '1')
+        .replace(/e/g, '3');
 }
