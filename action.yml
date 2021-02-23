@@ -1,0 +1,10 @@
+name: 'Hackername'
+description: 'Greet the user with his/her hacker name'
+inputs:
+  real-name:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node12'
+  main: 'index.js'

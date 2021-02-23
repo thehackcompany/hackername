@@ -1,0 +1,23 @@
+{
+  "name": "hackername",
+  "version": "1.0.0",
+  "description": "Greet the user with his/her hacker name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehackcompany/hackername.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thehackcompany/hackername/issues"
+  },
+  "homepage": "https://github.com/thehackcompany/hackername#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}
