@@ -1,4 +1,4 @@
-name: 'Hackername'
+name: 'thehackcompany/hackername'
 description: 'Greet the user with his/her hacker name'
 inputs:
   real-name:  # id of input
