@@ -5,6 +5,9 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+branding:
+  icon: 'at-sign'
+  color: 'yellow'
 runs:
   using: 'node12'
   main: 'index.js'
